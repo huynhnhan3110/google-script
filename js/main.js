@@ -1,6 +1,6 @@
 const app = function () {
 	const API_BASE = 'https://script.google.com/macros/s/AKfycbybICnvqr_qWDBpyiKJ2aSW1pJsNWEJpLhP1uLPU_J_hkT-inJK3oZ5ZnQEy4teGJHYOA/exec';
-	const API_KEY = 'AKfycbybICnvqr_qWDBpyiKJ2aSW1pJsNWEJpLhP1uLPU_J_hkT-inJK3oZ5ZnQEy4teGJHYOA';
+	const API_KEY = 'abcdef';
 	const CATEGORIES = ['Nghiên cứu tự làm', 'Môn học '];
 
 	const state = {activePage: 1, activeCategory: null};
