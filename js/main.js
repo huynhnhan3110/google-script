@@ -1,7 +1,7 @@
 const app = function () {
-	const API_BASE = 'https://script.google.com/macros/s/AKfycbybICnvqr_qWDBpyiKJ2aSW1pJsNWEJpLhP1uLPU_J_hkT-inJK3oZ5ZnQEy4teGJHYOA/exec';
+	const API_BASE = 'https://script.google.com/macros/s/AKfycbwq2b6VbnrY7_k6oSOW90HX-cCwpqVeHu3jBFDO4g/exec';
 	const API_KEY = 'abcdef';
-	const CATEGORIES = ['Nghiên cứu tự làm', 'Môn học '];
+	const CATEGORIES =  ['general', 'financial', 'technology', 'marketing'];
 
 	const state = {activePage: 1, activeCategory: null};
 	const page = {};
